@@ -140,23 +140,24 @@
     <link rel="alternate" href="https://wiredlive2017.curation.space/2017/11/06/the-world-in-simulation.html"/>
     <id>https://wiredlive2017.curation.space/2017/11/06/the-world-in-simulation.html</id>
     <published>2017-11-06T10:30:23Z</published>
-    <updated>2017-11-07T12:12:16+00:00</updated>
+    <updated>2017-11-07T13:29:13+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;div class="row"&gt;
-  &lt;img class="pull-left img-responsive img-thumbnail article" src="/images/d71279b71b71f34dc96c9295daccb9cf.jpeg" /&gt;
+  &lt;p&gt;&lt;img class='pull-left img-responsive article' style="max-width:100%" src='/images/d71279b71b71f34dc96c9295daccb9cf.jpeg'&gt;&lt;/p&gt;
+  
   &lt;div class="article"&gt;
     &lt;p&gt;&lt;span/&gt;&lt;/p&gt;
     
     &lt;p&gt;&lt;div&gt;
        &lt;br&gt;
       &lt;/div&gt;
-      &lt;table style=""&gt;
+      &lt;table style="table-layout: fixed; border-collapse: collapse; min-width: 100%;"&gt;
        &lt;tbody&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;
             Curious about
            &lt;a style="color: rgb(59, 170, 91); font-weight: bold;" href="https://evernote.com"&gt;Evernote&lt;/a&gt; and how it can make your everyday more productive? Try it out 
            &lt;a style="color: rgb(59, 170, 91); font-weight: bold;" href="https://evernote.com/download/"&gt;here&lt;/a&gt;!
@@ -167,11 +168,11 @@
       &lt;div&gt;
        &lt;br&gt;
       &lt;/div&gt;
-      &lt;table style=""&gt;
+      &lt;table style="table-layout: fixed; border-collapse: collapse; min-width: 100%;"&gt;
        &lt;tbody&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;&lt;/p&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;&lt;/p&gt;
     
   &lt;/div&gt;
   &lt;div class="article"&gt;
@@ -179,11 +180,11 @@
           &lt;/div&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;
            &lt;span style="font-weight: bold;"&gt;Herman Narula&lt;/span&gt;
           &lt;/div&gt;
-          &lt;div style=""&gt;
+          &lt;div style="text-align: center;"&gt;
             co-founder and CEO, improbable
           &lt;/div&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -192,11 +193,11 @@
       &lt;div&gt;
        &lt;br&gt;
       &lt;/div&gt;
-      &lt;table style=""&gt;
+      &lt;table style="table-layout: fixed; border-collapse: collapse; min-width: 100%;"&gt;
        &lt;tbody&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;
            &lt;span style="font-weight: bold;"&gt;SPEAKER BIO&lt;/span&gt;
           &lt;/div&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -211,11 +212,11 @@
       &lt;div&gt;
        &lt;br&gt;
       &lt;/div&gt;
-      &lt;table style=""&gt;
+      &lt;table style="table-layout: fixed; border-collapse: collapse; min-width: 100%;"&gt;
        &lt;tbody&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;
            &lt;span style="font-weight: bold;"&gt;SUMMARY&lt;/span&gt;
           &lt;/div&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -242,11 +243,11 @@
       &lt;div&gt;
        &lt;br&gt;
       &lt;/div&gt;
-      &lt;table style=""&gt;
+      &lt;table style="table-layout: fixed; border-collapse: collapse; min-width: 100%;"&gt;
        &lt;tbody&gt;
         &lt;tr&gt;
-         &lt;td style=""&gt;
-          &lt;div style=""&gt;
+         &lt;td style="border: 1px solid rgb(219, 219, 219); padding: 8px;"&gt;
+          &lt;div style="text-align: center;"&gt;
             See all the note summaries from WIRED Live 
            &lt;a style="color: rgb(59, 170, 91); font-weight: bold;" href="http://bit.ly/wiredlive"&gt;here&lt;/a&gt;!
           &lt;/div&gt;&lt;/td&gt;
