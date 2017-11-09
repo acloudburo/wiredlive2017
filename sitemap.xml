@@ -43,6 +43,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://wiredlive2017.curation.space/2017/11/09/how-our-senses-change-how-food-tastes.html</loc>
+    <lastmod>2017-11-09</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://wiredlive2017.curation.space/2017/11/07/counterterrorism-on-social-media.html</loc>
     <lastmod>2017-11-07</lastmod>
     <priority>0.7</priority>
@@ -196,6 +202,12 @@
     <loc>https://wiredlive2017.curation.space/2017/11.html</loc>
     <lastmod>2017-11-07</lastmod>
     <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://wiredlive2017.curation.space/2017/11/09.html</loc>
+    <lastmod>2017-11-07</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
