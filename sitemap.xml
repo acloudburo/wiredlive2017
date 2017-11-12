@@ -295,6 +295,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://wiredlive2017.curation.space/tags/terror.html</loc>
+    <lastmod>2017-11-12</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://wiredlive2017.curation.space/tags/film.html</loc>
     <lastmod>2017-11-12</lastmod>
     <priority>0.9</priority>
