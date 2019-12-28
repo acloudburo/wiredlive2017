@@ -1,230 +1,352 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html> 
+<html>
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
     <title>wiredlive2017</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" /><!--[if lt IE 9]><script src="../../js/ie8.js" type="text/javascript"></script><![endif]--><link href="../../css/all.css" media="screen" rel="stylesheet" type="text/css" /><script type="text/javascript">
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" /><!--[if lt IE 9]><script src="../../js/ie8.js"></script><![endif]--><link href="../../css/all.css" rel="stylesheet" /><script type="text/javascript">
       (function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-89386900-5", location.hostname);ga("send","pageview");
     </script>
     <link href="/favicon.png" rel="icon" type="image/png" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C400italic%2C700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <!--HTML5 shiv for IE8 support--><!--[if lt IE 9]
-    | <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script-->
   </head>
   <body>
-    <div class="col-sm-3 sidebar" id="secondary" style="display: none;">
-      <aside>
-        <div class="about">
-          <h4>
-            <a class="sidebarlink" href="/"><i class="fa fa-chevron-right"></i>    Home     <i class="fa fa-home"></i></a>
-          </h4>
-          <h4>
-            <a class="sidebarlink" href="/blog.html"><i class="fa fa-chevron-right"></i>    Keynotes   </a>
-          </h4>
-          <h4>
-            <a class="sidebarlink" href="/menu1.html"><i class="fa fa-chevron-right"></i>    About   </a>
-          </h4>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">wiredlive2017</a>
         </div>
-        <div class="tags">
-          <h4>
-            Categories
-          </h4>
-          <ul class="list-unstyled">
-            <a class="label label-default" href="/tags/activism.html">activism (2)</a>
-            <a class="label label-default" href="/tags/ai.html">ai (2)</a>
-            <a class="label label-default" href="/tags/day1.html">day1 (16)</a>
-            <a class="label label-default" href="/tags/day2.html">day2 (10)</a>
-            <a class="label label-default" href="/tags/design.html">design (2)</a>
-            <a class="label label-default" href="/tags/film.html">film (1)</a>
-            <a class="label label-default" href="/tags/gaming.html">gaming (1)</a>
-            <a class="label label-default" href="/tags/journalism.html">journalism (1)</a>
-            <a class="label label-default" href="/tags/research.html">research (8)</a>
-            <a class="label label-default" href="/tags/socialmedia.html">socialMedia (2)</a>
-            <a class="label label-default" href="/tags/strategy.html">strategy (5)</a>
-            <a class="label label-default" href="/tags/terror.html">terror (1)</a>
-            <a class="label label-default" href="/tags/virtualreality.html">virtualReality (1)</a>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/blog.html"> Keynotes  </a>
+            </li>
+            <li>
+              <a href="/menu1.html"> About  </a>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Categories <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="/tags/activism.html">activism (2)</a>
+                </li>
+                <li>
+                  <a href="/tags/ai.html">ai (2)</a>
+                </li>
+                <li>
+                  <a href="/tags/day1.html">day1 (16)</a>
+                </li>
+                <li>
+                  <a href="/tags/day2.html">day2 (10)</a>
+                </li>
+                <li>
+                  <a href="/tags/design.html">design (2)</a>
+                </li>
+                <li>
+                  <a href="/tags/film.html">film (1)</a>
+                </li>
+                <li>
+                  <a href="/tags/gaming.html">gaming (1)</a>
+                </li>
+                <li>
+                  <a href="/tags/journalism.html">journalism (1)</a>
+                </li>
+                <li>
+                  <a href="/tags/research.html">research (8)</a>
+                </li>
+                <li>
+                  <a href="/tags/socialmedia.html">socialMedia (2)</a>
+                </li>
+                <li>
+                  <a href="/tags/strategy.html">strategy (5)</a>
+                </li>
+                <li>
+                  <a href="/tags/terror.html">terror (1)</a>
+                </li>
+                <li>
+                  <a href="/tags/virtualreality.html">virtualReality (1)</a>
+                </li>
+              </ul>
+            </li>
+            <ul class="list-unstyled list-inline nav navbar-nav navbar-right"></ul>
           </ul>
         </div>
-        <div class="timeline">
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-9">
+          <section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/09/my-beautiful-broken-brain.html">My Beautiful Broken Brain</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/film.html">film</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Lotje Sodderland film-maker SPEAKER BIO In her award-winning debut film My Beautiful Broken Brain, film-maker Lotje Sodderland explores resilience and the mind...         <a href="/2017/11/09/my-beautiful-broken-brain.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/09/peak-performance-under-intense-pressure.html">Peak Performance under Intense Pressure</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Nico Rosberg Former Formula One racing driver SPEAKER BIO With a racing record of 23 career wins and 30 pole positions, former Formula One racing driver Rosber...         <a href="/2017/11/09/peak-performance-under-intense-pressure.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/09/the-human-factor.html">The Human Factor</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/gaming.html">gaming</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Ilkka Paananen CEO, Supercell SPEAKER BIO Supercell is the Helsinki-based mobile games developer behind Clash of Clans, Hay Day, Boom Beach and Clash Royale. S...         <a href="/2017/11/09/the-human-factor.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/09/fighting-oppression-in-iran-with-apps.html">Fighting Oppression in Iran with Apps</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/activism.html">activism</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Firuzeh Mahmoudi director, United4Iran SPEAKER BIO Activist Firuzeh Mahmoudi wants to improve human rights and support civil society, using secure mobile apps ...         <a href="/2017/11/09/fighting-oppression-in-iran-with-apps.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/09/how-our-senses-change-how-food-tastes.html">How Our Senses Change How Food Tastes</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Charles Spence professor of experimental psychology, Somerville College SPEAKER BIO Experimental psychologist Spence concocts dream-like food, drink and fragra...         <a href="/2017/11/09/how-our-senses-change-how-food-tastes.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/07/the-age-of-the-entrepreneur-part-one.html">The Age of the Entrepreneur: Part One</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! PANEL: HOW DO WE BEST SOLVE THE BIGGEST CHALLENGES FACING OUR PLANET? Niklas Zennström CEO and founding partner, Atomico Johan Rockström director, Stockholm Re...         <a href="/2017/11/07/the-age-of-the-entrepreneur-part-one.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/07/fireside-chat.html">Fireside Chat</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Margrethe Vestager EU Commissioner for Competition SPEAKER BIO Holding one of the most powerful positions in Europe, Margrethe Vestager is responsible for crea...         <a href="/2017/11/07/fireside-chat.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/07/deepmind-session.html">Deepmind Session</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/ai.html">ai</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! ALGORITHMIC BIAS KEYNOTE Joy Buolamwini founder, Algorithmic Justice League founder, Code4Rights With an introduction by Mustafa Suleyman, co-founder and head ...         <a href="/2017/11/07/deepmind-session.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/07/from-imagination-to-innovation-how-great-companies-succeed.html">From Imagination to Innovation: How Great Companies Succeed</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Omar Abbosh chief strategy officer, Accenture SPEAKER BIO Omar Abbosh is responsible for overseeing all aspects of Accenture’s strategy, innovation programs an...         <a href="/2017/11/07/from-imagination-to-innovation-how-great-companies-succeed.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section><section class="post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                <a href="/2017/11/07/how-emotions-are-made.html">How Emotions are Made</a>
+              </h2>
+              <p class="entry-meta">
+                Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
+              </p>
+            </header>
+            <div class="entry-description">
+              <p>
+                Curious about Evernote and how it can make your everyday more productive? Try it out here! Lisa Feldman Barrett distinguished professor of psychology, Northeastern University director, Interdisciplinary Affective Science Lab SPEAKER BIO The Interdisc...         <a href="/2017/11/07/how-emotions-are-made.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
+              </p>
+            </div>
+          </section>
+          <ul class="pager">
+            <li class="previous">
+              <a href="/blog.html">&larr;</a>
+            </li>
+            <span class="text-center"><i class="fa fa-file-text-o"></i>    2 of 3</span>
+            <li class="next">
+              <a href="/blog/page/3.html">&rarr;</a>
+            </li>
+          </ul>
+          <hr />
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+          //<![CDATA[
+                            var disqus_shortname = 'dev1cloudburo';
+                    
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          //]]>
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          
+          <script type="text/javascript">
+          //<![CDATA[
+              var disqus_shortname = 'dev1cloudburo';
+              (function () {
+                  var s = document.createElement('script'); s.async = true;
+                  s.type = 'text/javascript';
+                  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+              }());
+          //]]>
+          </script>
+          
+          <aside>
+            <h3>
+              Recent Articles
+            </h3>
+            <ol>
+              <li>
+                <a href="/2017/11/10/i-survived-a-mass-shooting.html">I Survived a Mass Shooting</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/augmented-reality-is-here-and-ready-to-use.html">Augmented Reality is Here and Ready to Use</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/the-equation-for-happiness.html">The Equation for Happiness</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/science-museum-presents-part-three-the-antibiotic-resistance-crisis.html">Science Museum Presents Part Three: The Antibiotic Resistance Crisis</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/democratic-design.html">Democratic Design</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/to-catch-a-paedophile-you-only-need-to-look-at-their-hands.html">To Catch a Paedophile, You Only Need to Look at Their Hands</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/the-digital-climate.html">The Digital Climate</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/10/fighting-for-workers-rights-in-the-gig-economy.html">Fighting for Workers' Rights in the Gig Economy</a> <span>Nov 10</span> 
+              </li>
+              <li>
+                <a href="/2017/11/09/robots-that-crawl-fly-swim-and-hop.html">Robots that Crawl, Fly, Swim and Hop</a> <span>Nov  9</span> 
+              </li>
+              <li>
+                <a href="/2017/11/09/using-bubbles-to-fight-cancer.html">Using Bubbles to Fight Cancer</a> <span>Nov  9</span> 
+              </li>
+            </ol>
+          </aside>
+          <hr>
+            <p class="text-center">
+              ©2019 <a href="/">wiredlive2017</a> <br /><span class="small">Powered by<a href="https://cloudburo.net/docs/products.html"> Cloudburo Curation Engine</a></span>
+            </p>
+          </hr>
         </div>
-      </aside>
-    </div>
-    <!--/#secondary-->
-    <div class="col-sm-12" id="primary">
-      <div class="content">
-        <header class="header">
-          <hgroup class="pull-left">
-            <h1 class="site-title">
-              <a href="/">wiredlive2017</a>
-            </h1>
-          </hgroup>
-          <div class="btn btn-primary pull-right" id="togglesidebar">
-            <i class="fa fa-bars"></i>
+        <div class="col-lg-3 col-md-3">
+          <div class="well">
+            <h4>
+              Categories
+            </h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/tags/activism.html">activism</a> (2)
+              </li>
+              <li>
+                <a href="/tags/ai.html">ai</a> (2)
+              </li>
+              <li>
+                <a href="/tags/day1.html">day1</a> (16)
+              </li>
+              <li>
+                <a href="/tags/day2.html">day2</a> (10)
+              </li>
+              <li>
+                <a href="/tags/design.html">design</a> (2)
+              </li>
+              <li>
+                <a href="/tags/film.html">film</a> (1)
+              </li>
+              <li>
+                <a href="/tags/gaming.html">gaming</a> (1)
+              </li>
+              <li>
+                <a href="/tags/journalism.html">journalism</a> (1)
+              </li>
+              <li>
+                <a href="/tags/research.html">research</a> (8)
+              </li>
+              <li>
+                <a href="/tags/socialmedia.html">socialMedia</a> (2)
+              </li>
+              <li>
+                <a href="/tags/strategy.html">strategy</a> (5)
+              </li>
+              <li>
+                <a href="/tags/terror.html">terror</a> (1)
+              </li>
+              <li>
+                <a href="/tags/virtualreality.html">virtualReality</a> (1)
+              </li>
+            </ul>
           </div>
-        </header>
-        <section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/09/my-beautiful-broken-brain.html">My Beautiful Broken Brain</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/film.html">film</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Lotje Sodderland film-maker SPEAKER BIO In her award-winning debut film My Beautiful Broken Brain, film-maker Lotje Sodderland explores resilience and the mind...         <a href="/2017/11/09/my-beautiful-broken-brain.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/09/peak-performance-under-intense-pressure.html">Peak Performance under Intense Pressure</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Nico Rosberg Former Formula One racing driver SPEAKER BIO With a racing record of 23 career wins and 30 pole positions, former Formula One racing driver Rosber...         <a href="/2017/11/09/peak-performance-under-intense-pressure.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/09/the-human-factor.html">The Human Factor</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/gaming.html">gaming</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Ilkka Paananen CEO, Supercell SPEAKER BIO Supercell is the Helsinki-based mobile games developer behind Clash of Clans, Hay Day, Boom Beach and Clash Royale. S...         <a href="/2017/11/09/the-human-factor.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/09/fighting-oppression-in-iran-with-apps.html">Fighting Oppression in Iran with Apps</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/activism.html">activism</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Firuzeh Mahmoudi director, United4Iran SPEAKER BIO Activist Firuzeh Mahmoudi wants to improve human rights and support civil society, using secure mobile apps ...         <a href="/2017/11/09/fighting-oppression-in-iran-with-apps.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/09/how-our-senses-change-how-food-tastes.html">How Our Senses Change How Food Tastes</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  09.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Charles Spence professor of experimental psychology, Somerville College SPEAKER BIO Experimental psychologist Spence concocts dream-like food, drink and fragra...         <a href="/2017/11/09/how-our-senses-change-how-food-tastes.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/07/the-age-of-the-entrepreneur-part-one.html">The Age of the Entrepreneur: Part One</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! PANEL: HOW DO WE BEST SOLVE THE BIGGEST CHALLENGES FACING OUR PLANET? Niklas Zennström CEO and founding partner, Atomico Johan Rockström director, Stockholm Re...         <a href="/2017/11/07/the-age-of-the-entrepreneur-part-one.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/07/fireside-chat.html">Fireside Chat</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Margrethe Vestager EU Commissioner for Competition SPEAKER BIO Holding one of the most powerful positions in Europe, Margrethe Vestager is responsible for crea...         <a href="/2017/11/07/fireside-chat.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/07/deepmind-session.html">Deepmind Session</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/ai.html">ai</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! ALGORITHMIC BIAS KEYNOTE Joy Buolamwini founder, Algorithmic Justice League founder, Code4Rights With an introduction by Mustafa Suleyman, co-founder and head ...         <a href="/2017/11/07/deepmind-session.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/07/from-imagination-to-innovation-how-great-companies-succeed.html">From Imagination to Innovation: How Great Companies Succeed</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/strategy.html">strategy</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Omar Abbosh chief strategy officer, Accenture SPEAKER BIO Omar Abbosh is responsible for overseeing all aspects of Accenture’s strategy, innovation programs an...         <a href="/2017/11/07/from-imagination-to-innovation-how-great-companies-succeed.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section><section class="post">
-          <header class="entry-header">
-            <h2 class="entry-title">
-              <a href="/2017/11/07/how-emotions-are-made.html">How Emotions are Made</a>
-            </h2>
-            <p class="entry-meta">
-              Posted on  07.Nov 2017 | Tags <a class="label label-primary" href="/tags/day1.html">day1</a> <a class="label label-primary" href="/tags/research.html">research</a> 
-            </p>
-          </header>
-          <div class="entry-description">
-            <p>
-              Curious about Evernote and how it can make your everyday more productive? Try it out here! Lisa Feldman Barrett distinguished professor of psychology, Northeastern University director, Interdisciplinary Affective Science Lab SPEAKER BIO The Interdisc...         <a href="/2017/11/07/how-emotions-are-made.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
-            </p>
-          </div>
-        </section>
-        <ul class="pager">
-          <li class="previous">
-            <a href="/blog.html">&larr;</a>
-          </li>
-          <span class="text-center"><i class="fa fa-file-text-o"></i>    2 of 3</span>
-          <li class="next">
-            <a href="/blog/page/3.html">&rarr;</a>
-          </li>
-        </ul><footer class="footer">
-          <p>
-          </p>
-          <div class="socials-footer">
-          </div>
-          <p>
-            © 2018 All rights reserved 
-          </p>
-        </footer>
+        </div>
       </div>
     </div>
-    <script src="../../js/all.js" type="text/javascript"></script>
+    <script src="../../js/all.js"></script>
   </body>
 </html>
